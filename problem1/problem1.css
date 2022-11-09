@@ -1,0 +1,76 @@
+body {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    height: 55vh;
+    margin-top: 25vh;
+    background-color: #9ADDE7;
+
+}
+
+#heading {
+    margin-top: -40vh;
+    margin-left: 20vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+
+}
+
+#digital_clock {
+    margin-left: -65vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aqua;
+    display: flex;
+    align-items: center;
+    background-color:#5CB0BC;
+    margin-bottom: 5vh;
+    margin-top: -1vh;
+  font-size: 70%;
+
+    span {
+        padding: 1rem .5rem;
+    }
+}
+
+#today_date {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: darkblue;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    margin-bottom: 90px;
+    margin-left: -53vh;
+}
+
+#start {
+    margin-left: -32vh;
+    font-size: large;
+    margin-top: 41vh;
+    color: aliceblue;
+    background-color: darkgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 70px;
+}
+
+#stop {
+    font-size: large;
+    margin-top: 41vh;
+    margin-left: 5vh;
+    color: aliceblue;
+    background-color: darkred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 70px;
+}
